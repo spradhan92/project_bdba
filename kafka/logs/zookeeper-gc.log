@@ -1,0 +1,22 @@
+[2020-07-10T05:50:30.598-0100][gc,heap] Heap region size: 1M
+[2020-07-10T05:50:30.598-0100][gc,heap,coops] Heap address: 0x00000007e0000000, size: 512 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+[2020-07-10T05:50:30.604-0100][gc           ] Using G1
+[2020-07-10T05:50:30.606-0100][gc,cds       ] Mark closed archive regions in map: [0x00000007fff00000, 0x00000007fff7aff8]
+[2020-07-10T05:50:30.606-0100][gc,cds       ] Mark open archive regions in map: [0x00000007ffe00000, 0x00000007ffe50ff8]
+[2020-07-10T05:50:30.626-0100][gc           ] Periodic GC disabled
+[2020-07-10T05:52:07.807-0100][gc,start     ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2020-07-10T05:52:07.809-0100][gc,task      ] GC(0) Using 4 workers of 4 for evacuation
+[2020-07-10T05:52:07.845-0100][gc,mmu       ] GC(0) MMU target violated: 21.0ms (20.0ms/21.0ms)
+[2020-07-10T05:52:07.846-0100][gc,phases    ] GC(0)   Pre Evacuate Collection Set: 2.4ms
+[2020-07-10T05:52:07.846-0100][gc,phases    ] GC(0)   Merge Heap Roots: 0.2ms
+[2020-07-10T05:52:07.846-0100][gc,phases    ] GC(0)   Evacuate Collection Set: 29.9ms
+[2020-07-10T05:52:07.846-0100][gc,phases    ] GC(0)   Post Evacuate Collection Set: 0.7ms
+[2020-07-10T05:52:07.846-0100][gc,phases    ] GC(0)   Other: 5.9ms
+[2020-07-10T05:52:07.846-0100][gc,heap      ] GC(0) Eden regions: 25->0(21)
+[2020-07-10T05:52:07.846-0100][gc,heap      ] GC(0) Survivor regions: 0->4(4)
+[2020-07-10T05:52:07.846-0100][gc,heap      ] GC(0) Old regions: 0->1
+[2020-07-10T05:52:07.846-0100][gc,heap      ] GC(0) Archive regions: 2->2
+[2020-07-10T05:52:07.846-0100][gc,heap      ] GC(0) Humongous regions: 0->0
+[2020-07-10T05:52:07.846-0100][gc,metaspace ] GC(0) Metaspace: 7311K(7936K)->7311K(7936K) NonClass: 6461K(6912K)->6461K(6912K) Class: 850K(1024K)->850K(1024K)
+[2020-07-10T05:52:07.846-0100][gc           ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 25M->5M(512M) 39.096ms
+[2020-07-10T05:52:07.846-0100][gc,cpu       ] GC(0) User=0.03s Sys=0.06s Real=0.04s
